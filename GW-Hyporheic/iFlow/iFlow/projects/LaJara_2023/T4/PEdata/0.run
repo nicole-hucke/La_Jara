@@ -1,0 +1,14 @@
+Analytical;SimType
+0;RunSPKe
+0;PeriodKe
+24.0;PeriodValueKe
+-0.016;BElevKe
+T1;TopSensKe
+T1,T2;SensorsPE
+-0.016,-0.316;HeightsPE
+900.0;dtPE
+0.0;BREPE
+1.0;GammaPE
+1626026400.0;FromPE
+1678042800.0;ToPE
+9.484176e-07,9.484176e-07;KePE
