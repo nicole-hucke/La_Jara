@@ -12,7 +12,7 @@ Main function
 pylustrator.start()
 
 def main():
-    probe = "T8"
+    probe = "T6"
     runs = [0,1,2]
     labels_runs = ["30","45","60"]
     sensors = ["T2","T3","T4"]
