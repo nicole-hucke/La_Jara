@@ -18,8 +18,10 @@ def main():
     df["Time"] = pd.to_datetime(df["Time"])
     depths = ["30","45","60"]
 
-    df = df[df["Time"] >= "2023-04-01"]  # exclude data before March 23, 2023
+    df = df[df["Time"] >= "2023-04-01"]  # exclude data before a certain date
 
+    # plotting the data
+    plt.figure(figsize=(10, 5), dpi=300)
     for depth in depths:
         plt.plot(df['Time'].to_numpy(), df[depth].to_numpy(), label=f"{depth} cm")
 
