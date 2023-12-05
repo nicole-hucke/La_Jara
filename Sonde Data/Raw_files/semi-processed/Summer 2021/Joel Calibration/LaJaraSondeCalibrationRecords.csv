@@ -1,0 +1,371 @@
+KorEXO Calibration File Export
+
+Last Calibration Time=,7/15/2021 3:52:11 PM
+Calibration Start Time=,10/28/2021 12:12:07 PM
+Calibration End Time=,10/28/2021 12:12:33 PM
+Calibration Status=,Completed
+QC Score=,Warning
+Instrument Type=,EXO2
+Instrument Name=,DOWN 17H101020
+Instrument Serial Number=,17H101020
+Instrument Firmware Version=,1.0.86
+Parameter Type=,Depth (m)
+Sensor Type=,Depth
+Sensor Serial Number=,17G100304
+Sensor Firmware Version=,3.1.3
+User ID=,<Unknown>
+
+[Cal Point 1]
+Standard=,0.000 m
+Pre Calibration Value=,-0.422 m
+Post Calibration Value=,0.000 m
+Raw Value=,0.000 m
+Temperature=,5.652 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,7/15/2021 2:51:02 PM
+Calibration Start Time=,10/28/2021 12:33:21 PM
+Calibration End Time=,10/28/2021 12:33:32 PM
+Calibration Status=,Completed
+QC Score=,Warning
+Instrument Type=,EXO2
+Instrument Name=,UP 17H101021
+Instrument Serial Number=,17H101021
+Instrument Firmware Version=,1.0.86
+Parameter Type=,Depth (m)
+Sensor Type=,Depth
+Sensor Serial Number=,19A101287
+Sensor Firmware Version=,3.1.3
+User ID=,<Unknown>
+
+[Cal Point 1]
+Standard=,0.000 m
+Pre Calibration Value=,-0.439 m
+Post Calibration Value=,0.000 m
+Raw Value=,0.000 m
+Temperature=,6.713 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 2:13:26 PM
+Calibration Start Time=,11/1/2021 11:53:16 AM
+Calibration End Time=,11/1/2021 11:59:59 AM
+Calibration Status=,CompletedWithWarnings
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,UP 17H101021
+Instrument Serial Number=,17H101021
+Instrument Firmware Version=,1.0.86
+Parameter Type=,pH
+Sensor Type=,pH
+Sensor Serial Number=,17H100999
+Sensor Firmware Version=,3.0.0
+User ID=,<Unknown>
+Sensor Module Replacement Date=,<Unknown>
+pH Range 4.00-7.00 Delta Slope=,172.3 mV
+pH Range 4.00-7.00 mV per Decade=,57.44
+pH Range 7.00-10.00 Delta Slope=,183.2 mV
+pH Range 7.00-10.00 mV per Decade=,61.08
+
+[Cal Point 1]
+Standard=,4.00 pH
+Pre Calibration Value=,4.15 pH
+Post Calibration Value=,4.00 pH
+Raw Value=,161.0 mV
+Temperature=,20.505 °C
+Stability Achieved=,Yes
+
+[Cal Point 2]
+Standard=,7.00 pH
+Pre Calibration Value=,7.16 pH
+Post Calibration Value=,7.00 pH
+Raw Value=,-11.3 mV
+Temperature=,20.429 °C
+Stability Achieved=,Yes
+
+[Cal Point 3]
+Standard=,10.00 pH
+Pre Calibration Value=,10.36 pH
+Post Calibration Value=,10.03 pH
+Raw Value=,-194.5 mV
+Temperature=,20.466 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,7/15/2021 2:16:37 PM
+Calibration Start Time=,11/1/2021 12:02:05 PM
+Calibration End Time=,11/1/2021 12:05:47 PM
+Calibration Status=,Completed
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,UP 17H101021
+Instrument Serial Number=,17H101021
+Instrument Firmware Version=,1.0.86
+Parameter Type=,Cond (µS/cm)
+Sensor Type=,Wiped Conductivity And Temperature
+Sensor Serial Number=,17G101782
+Sensor Firmware Version=,3.0.5
+User ID=,<Unknown>
+Cell Constant=,0.49
+
+[Cal Point 1]
+Standard=,1000.0 µS/cm
+Pre Calibration Value=,954.2 µS/cm
+Post Calibration Value=,1000.0 µS/cm
+Raw Value=,0.0 µS/cm
+Temperature=,20.657 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 2:47:38 PM
+Calibration Start Time=,11/1/2021 12:07:23 PM
+Calibration End Time=,11/1/2021 12:11:17 PM
+Calibration Status=,Completed
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,UP 17H101021
+Instrument Serial Number=,17H101021
+Instrument Firmware Version=,1.0.86
+Parameter Type=,Turbidity (FNU)
+Sensor Type=,Turbidity
+Sensor Serial Number=,17G100815
+Sensor Firmware Version=,3.0.4
+User ID=,<Unknown>
+
+[Cal Point 1]
+Standard=,0.00 FNU
+Pre Calibration Value=,-0.02 FNU
+Post Calibration Value=,0.00 FNU
+Raw Value=,0.00 FNU
+Temperature=,19.874 °C
+Stability Achieved=,Yes
+
+[Cal Point 2]
+Standard=,124.00 FNU
+Pre Calibration Value=,126.27 FNU
+Post Calibration Value=,124.00 FNU
+Raw Value=,0.00 FNU
+Temperature=,19.598 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 2:18:00 PM
+Calibration Start Time=,11/1/2021 12:12:14 PM
+Calibration End Time=,11/1/2021 12:14:10 PM
+Calibration Status=,CompletedWithWarnings
+QC Score=,Bad
+Instrument Type=,EXO2
+Instrument Name=,UP 17H101021
+Instrument Serial Number=,17H101021
+Instrument Firmware Version=,1.0.86
+Parameter Type=,DO (% Local)
+Sensor Type=,DO
+Sensor Serial Number=,17G101884
+Sensor Firmware Version=,3.0.0
+User ID=,<Unknown>
+DO Cap Serial Number=,17G101181
+DO Cap Replacement Date=,7/27/2017 8:02:08 AM
+DO Gain=,1.58
+DO mg/L=,8.65 mg/L
+
+[Cal Point 1]
+Standard=,100.0 % Local
+Pre Calibration Value=,105.1 % Local
+Post Calibration Value=,100.0 % Local
+Raw Value=,0.0 % Local
+Temperature=,21.379 °C
+Stability Achieved=,Yes
+Barometer=,761.8 mmHg
+
+----------
+
+Last Calibration Time=,8/12/2021 2:51:54 PM
+Calibration Start Time=,11/1/2021 12:14:55 PM
+Calibration End Time=,11/1/2021 12:16:42 PM
+Calibration Status=,Completed
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,UP 17H101021
+Instrument Serial Number=,17H101021
+Instrument Firmware Version=,1.0.86
+Parameter Type=,fDOM (QSU)
+Sensor Type=,fDOM
+Sensor Serial Number=,17G101462
+Sensor Firmware Version=,3.0.0
+User ID=,<Unknown>
+
+[Cal Point 1]
+Standard=,300.00 QSU
+Pre Calibration Value=,236.57 QSU
+Post Calibration Value=,300.00 QSU
+Raw Value=,0.00 QSU
+Temperature=,15.857 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 12:28:37 PM
+Calibration Start Time=,11/1/2021 12:20:58 PM
+Calibration End Time=,11/1/2021 12:26:50 PM
+Calibration Status=,Completed
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,DOWN 17H101020
+Instrument Serial Number=,17H101020
+Instrument Firmware Version=,1.0.86
+Parameter Type=,pH
+Sensor Type=,pH
+Sensor Serial Number=,17H101000
+Sensor Firmware Version=,3.0.0
+User ID=,<Unknown>
+Sensor Module Replacement Date=,<Unknown>
+pH Range 4.00-7.00 Delta Slope=,175.2 mV
+pH Range 4.00-7.00 mV per Decade=,58.40
+pH Range 7.00-10.00 Delta Slope=,180.7 mV
+pH Range 7.00-10.00 mV per Decade=,60.25
+
+[Cal Point 1]
+Standard=,4.00 pH
+Pre Calibration Value=,3.91 pH
+Post Calibration Value=,4.00 pH
+Raw Value=,161.4 mV
+Temperature=,20.932 °C
+Stability Achieved=,Yes
+
+[Cal Point 2]
+Standard=,7.00 pH
+Pre Calibration Value=,6.97 pH
+Post Calibration Value=,7.00 pH
+Raw Value=,-13.7 mV
+Temperature=,20.755 °C
+Stability Achieved=,Yes
+
+[Cal Point 3]
+Standard=,10.00 pH
+Pre Calibration Value=,10.13 pH
+Post Calibration Value=,10.02 pH
+Raw Value=,-194.5 mV
+Temperature=,20.695 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 12:20:26 PM
+Calibration Start Time=,11/1/2021 12:27:15 PM
+Calibration End Time=,11/1/2021 12:30:11 PM
+Calibration Status=,Completed
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,DOWN 17H101020
+Instrument Serial Number=,17H101020
+Instrument Firmware Version=,1.0.86
+Parameter Type=,Cond (µS/cm)
+Sensor Type=,Wiped Conductivity And Temperature
+Sensor Serial Number=,17G101781
+Sensor Firmware Version=,3.0.5
+User ID=,<Unknown>
+Cell Constant=,0.47
+
+[Cal Point 1]
+Standard=,1000.0 µS/cm
+Pre Calibration Value=,1006.5 µS/cm
+Post Calibration Value=,1000.0 µS/cm
+Raw Value=,0.0 µS/cm
+Temperature=,21.241 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 1:15:44 PM
+Calibration Start Time=,11/1/2021 12:30:30 PM
+Calibration End Time=,11/1/2021 12:33:00 PM
+Calibration Status=,Completed
+QC Score=,Good
+Instrument Type=,EXO2
+Instrument Name=,DOWN 17H101020
+Instrument Serial Number=,17H101020
+Instrument Firmware Version=,1.0.86
+Parameter Type=,Turbidity (FNU)
+Sensor Type=,Turbidity
+Sensor Serial Number=,17G100814
+Sensor Firmware Version=,3.0.4
+User ID=,<Unknown>
+
+[Cal Point 1]
+Standard=,0.00 FNU
+Pre Calibration Value=,0.01 FNU
+Post Calibration Value=,0.00 FNU
+Raw Value=,0.00 FNU
+Temperature=,20.500 °C
+Stability Achieved=,Yes
+
+[Cal Point 2]
+Standard=,124.00 FNU
+Pre Calibration Value=,124.23 FNU
+Post Calibration Value=,124.00 FNU
+Raw Value=,0.00 FNU
+Temperature=,20.296 °C
+Stability Achieved=,Yes
+
+----------
+
+Last Calibration Time=,8/12/2021 12:34:00 PM
+Calibration Start Time=,11/1/2021 12:34:01 PM
+Calibration End Time=,11/1/2021 12:34:57 PM
+Calibration Status=,CompletedWithWarnings
+QC Score=,Bad
+Instrument Type=,EXO2
+Instrument Name=,DOWN 17H101020
+Instrument Serial Number=,17H101020
+Instrument Firmware Version=,1.0.86
+Parameter Type=,DO (% Local)
+Sensor Type=,DO
+Sensor Serial Number=,17G102845
+Sensor Firmware Version=,3.0.0
+User ID=,<Unknown>
+DO Cap Serial Number=,17G101183
+DO Cap Replacement Date=,7/30/2017 7:59:08 AM
+DO Gain=,1.68
+DO mg/L=,8.96 mg/L
+
+[Cal Point 1]
+Standard=,100.0 % Local
+Pre Calibration Value=,96.7 % Local
+Post Calibration Value=,100.1 % Local
+Raw Value=,0.0 % Local
+Temperature=,20.915 °C
+Stability Achieved=,Yes
+Barometer=,761.8 mmHg
+
+----------
+
+Last Calibration Time=,8/12/2021 2:55:35 PM
+Calibration Start Time=,11/1/2021 12:35:16 PM
+Calibration End Time=,11/1/2021 12:37:29 PM
+Calibration Status=,Completed
+QC Score=,Warning
+Instrument Type=,EXO2
+Instrument Name=,DOWN 17H101020
+Instrument Serial Number=,17H101020
+Instrument Firmware Version=,1.0.86
+Parameter Type=,fDOM (QSU)
+Sensor Type=,fDOM
+Sensor Serial Number=,21A106445
+Sensor Firmware Version=,3.0.0
+User ID=,<Unknown>
+
+[Cal Point 1]
+Standard=,300.00 QSU
+Pre Calibration Value=,384.09 QSU
+Post Calibration Value=,300.00 QSU
+Raw Value=,0.00 QSU
+Temperature=,16.878 °C
+Stability Achieved=,Yes
+
+----------
