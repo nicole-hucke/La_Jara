@@ -12,7 +12,7 @@ Main function
 pylustrator.start()
 
 def main():
-    probe = "T6"
+    probe = "T1"
     runs = [0,1,2]
     labels_runs = ["30","45","60"]
     sensors = ["T2","T3","T4"]
@@ -53,7 +53,7 @@ def main():
     # ax2.grid()
     # ax2.legend()
     df_all_vel.to_csv(f"./{probe}_fluxes.csv", index=False)
-    df_all_ke.to_csv(f"./{probe}_ke.csv", index=False)
+    df_all_ke.to_csv(f"./{probe}_K.csv", index=False)
     plt.show()
     return
 
