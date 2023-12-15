@@ -1,0 +1,8 @@
+LPM;AnalysisType
+Yes;MobWin
+96.0;MobWinLen
+T1;SensorRef
+900.0;dt
+5;dof
+2;order
+T1,T2,T3,T4;ProcSens
