@@ -2,6 +2,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import matplotlib.animation as animation
+from tqdm import tqdm
+
+class ProgressFuncAnimation(animation.FuncAnimation):
+    def __init__(self, *args, **kwargs):
+        self.pbar = tqdm(total=kwargs.get('frames'))
+        animation.FuncAnimation.__init__(self, *args, **kwargs)
+
+    def _draw_frame(self, framedata):
+        self.pbar.update(1)
+        animation.FuncAnimation._draw_frame(self, framedata)
+
+    def _stop(self, *args):
+        self.pbar.close()
+        animation.FuncAnimation._stop(self, *args)
 
 # Importing all the GW topography data
 directory = 'C:/Users/huck4481/Documents/GitHub/La_Jara/Diver_Data/WSE/XS_topo'
@@ -52,14 +66,25 @@ ax.set_ylabel('Elevation')
 ax.set_title('Cross Sectional Topography of GW1')
 ax.grid(True)
 
+# Set the vertical limits to the topography elevations
+ax.set_ylim(well_bottom_elevation, topo_dict['GW1_topo']['elevation'].max())
+
+# Precompute the y-data for all frames, using every second data point
+y_data = [[water_table_data['WSE'].iloc[i]]*len(topo_dict['GW1_topo']['distance']) for i in range(0, len(water_table_data), 5)]
+
 # This function will be called for each frame of the animation.
 def animate(i):
     # Update the y-data of the water table line
-    water_table_line.set_ydata([water_table_data['WSE'].iloc[i]]*len(topo_dict['GW1_topo']['distance']))
+    water_table_line.set_ydata(y_data[i])
     # Update the title with the current date
-    ax.set_title(f'Cross Sectional Topography of GW1 - {water_table_data.index[i].strftime("%m/%d/%Y")}')
+    # Note: we multiply i by 2 to get the correct date because we're using every second data point
+    ax.set_title(f'Cross Sectional Topography of GW1 - {water_table_data.index[i*5].strftime("%m/%d/%Y")}')
 
-# Create the animation
-ani = animation.FuncAnimation(fig, animate, frames=len(water_table_data), interval=200)
+# Create the animation with a progress bar and a smaller interval
+# Note: we divide the number of frames by 2 because we're using every second data point
+ani = ProgressFuncAnimation(fig, animate, frames=len(water_table_data)//5, interval=1)
+
+# Save the animation as a GIF
+ani.save('GW1_SM21.gif', writer='pillow')
 
 plt.show()
