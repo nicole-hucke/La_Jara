@@ -1,0 +1,15 @@
+MLEn;Analysis
+1;LPMRun
+T1,T2;Sensors
+0.046,-0.254;Heights
+2;FreqOK
+DV;MethodDV
+5e-07;D
+6e-06;V
+infinite;Method
+-50.0;SRNLimit
+5.787037037037037e-05;FreqLimit
+0;MinMaxSRN
+3200000.0;cw_x_rhow
+3200000.0;c_x_rho
+1;IniFlag
