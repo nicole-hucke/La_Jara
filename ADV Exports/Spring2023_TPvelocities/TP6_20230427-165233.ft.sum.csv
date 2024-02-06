@@ -1,0 +1,5 @@
+﻿Desktop_Software_Build_Version,1.7
+#,St,Method,%Dep,MeasD,Npts,Spike,CorrFact,Loc,LocY,Depth1,Depth2,FinalD,IceD,WsIceD,WsSlushD,VelX,VelY,VelZ,Angle,VxErr,VyErr,VzErr,SNR1,SNR2,SNR3,SNRStd1,SNRStd2,SNRStd3,Temp,Batt,Tilt
+(),(),(),(),(m),(),(),(),(m),(m),(m),(m),(m),(m),(m),(m),(m/s),(m/s),(m/s),(deg),(m/s),(m/s),(m/s),(dB),(dB),(dB),(dB),(dB),(dB),(°C),(V),(deg)
+000,000,None,1,0.28,80,4,1.00,0,0,0.28,NaN,0.28,NaN,NaN,NaN,-0.135,-0.099,-0.043,-143.711,0.018,0.007,0.026,28.421,31.975,38.24,3.355,4.055,5.646,7.34,9.25,0.885
+001,001,None,0.589,0.165,80,4,1.00,0,0,0.28,NaN,0.28,NaN,NaN,NaN,0.058,-0.049,0.093,-40.099,0.017,0.013,0.021,50.4,49.447,49.212,1.412,1.915,2.044,7.302,9.236,0.684
