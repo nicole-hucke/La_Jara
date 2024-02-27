@@ -19,7 +19,6 @@ MATLAB Central File Exchange. Retrieved February 26, 2024.
 def despike_adv(u, hx=0.01, hy=0.01):
     N = len(u)
 
-    # calculating du
     du = np.zeros(N)
     for i in range(1, N-1):
         db = u[i] - u[i-1]
@@ -29,9 +28,14 @@ def despike_adv(u, hx=0.01, hy=0.01):
         else:
             du[i] = db
 
-    du = np.append(du, 0)
     u1 = np.copy(u)
     w1 = np.copy(du)
+    # add the last data point to u1 and w1
+    u1[-1] = u[-1]
+    w1[-1] = 0
+
+    print(u1.shape)
+    print(w1.shape)
 
     # axis rotation
     th = np.arctan2((N * np.sum(u1 * w1) - np.sum(u1) * np.sum(w1)),
@@ -135,10 +139,10 @@ def kde2d_botev(data, N, hx=0.01, hy=0.01):
     # now compute the optimal bandwidth^2
     I = np.arange(n)**2
     A2 = a**2
-    t_star = fsolve(evolve, [0.05])[0]
-    p_02 = func([0, 2], t_star)
-    p_20 = func([2, 0], t_star)
-    p_11 = func([1, 1], t_star)
+    t_star = fsolve(evolve, [0.05], args=(N,))[0]
+    p_02 = func([0, 2], t_star, N)
+    p_20 = func([2, 0], t_star, N)
+    p_11 = func([1, 1], t_star, N)
     t_y = hy**2
     t_x = hx**2
 
@@ -156,18 +160,101 @@ def kde2d_botev(data, N, hx=0.01, hy=0.01):
 
     return density, X, Y
 
-def evolve(t):
-    global N
-    Sum_func = func([0, 2], t) + func([2, 0], t)
+def ndhist(data, M):
+    nrows, ncols = data.shape
+    bins = np.zeros((nrows, ncols), dtype=int)
+
+    for i in range(ncols):
+        hist, edges = np.histogram(data[:, i], bins=np.linspace(0, 1, M+1))
+        bins[:, i] = np.digitize(data[:, i], bins=edges[1:])  # Use 1-based indexing
+
+    # Combine the vectors of 1D bin counts into a grid of nD bin counts
+    binned_data = np.zeros((M,) * ncols, dtype=float)
+    for i in range(nrows):
+        binned_data[tuple(bins[i] - 1)] += 1 / nrows  # Use 0-based indexing
+
+    return binned_data
+
+def evolve(t, N):
+    Sum_func = func([0, 2], t, N) + func([2, 0], t, N) + 2 * func([1, 1], t, N)
+    time = (2 * np.pi * N * Sum_func)**(-1/3)
+    out = (t - time) / time
+    return out
+
+def func(s, t, N):
+    if sum(s) <= 4:
+        Sum_func = func([s[0] + 1, s[1]], t, N) + func([s[0], s[1] + 1], t, N)
+        const = (1 + 1 / 2**(sum(s) + 1)) / 3
+        time = (-2 * const * K(s[0]) * K(s[1]) / N / Sum_func)**(1 / (2 + sum(s)))
+        out = psi(s, time)
+    else:
+        out = psi(s, t)
+    return out
+
+def psi(s, Time):
+    global I, A2
+    w = np.exp(-I * np.pi**2 * Time) * np.concatenate(([1], 0.5 * np.ones(len(I) - 1)))
+    wx = w * (I**s[0])
+    wy = w * (I**s[1])
+    out = (-1)**sum(s) * np.dot(wy, A2.dot(wx)) * np.pi**(2 * sum(s))
+    return out
+
+def K(s):
+    out = (-1)**s * np.prod(np.arange(1, 2 * s, 2)) / np.sqrt(2 * np.pi)
+    return out
+
+import numpy as np
+
+def dct2d(data):
+    # computes the 2 dimensional discrete cosine transform of data
+    # data is an nd cube
+    nrows, ncols = data.shape
+    if nrows != ncols:
+        raise ValueError('data is not a square array!')
+
+    # Compute weights to multiply DFT coefficients
+    w = np.concatenate(([1], 2 * np.exp(-1j * np.arange(1, nrows) * np.pi / (2 * nrows))))
+    weight = w[:, np.newaxis] * np.ones((1, ncols))
+
+    def dct1d(x):
+        # Re-order the elements of the columns of x
+        x = np.concatenate((x[::2, :], x[::-2, :]))
+
+        # Multiply FFT by weights
+        transform1d = np.real(weight * np.fft.fft(x, axis=0))
+        return transform1d
+
+    data = dct1d(dct1d(data).T).T
+
+    return data
+
+def idct2d(data):
+    # computes the 2 dimensional inverse discrete cosine transform
+    nrows, ncols = data.shape
+
+    # Compute weights
+    w = np.exp(1j * np.arange(nrows) * np.pi / (2 * nrows))
+    weights = w[:, np.newaxis] * np.ones((1, ncols))
+
+    def idct1d(x):
+        y = np.real(np.fft.ifft(weights * x, axis=0))
+        out = np.zeros((nrows, ncols))
+        out[::2, :] = y[:nrows//2, :]
+        out[1::2, :] = y[nrows-1:nrows//2:-1, :]
+        return out
+
+    data = idct1d(idct1d(data).T).T
+
+    return data
 
 ####### function to load CSV data and execute despike algorithm ######
 def load_and_despike(csv_file_path, hx=0.01, hy=0.01):
     data = pd.read_csv(csv_file_path)
     data = data.apply(pd.to_numeric, errors='coerce')
 
-    vx_series = data['VelX'].iloc[2:].values # ignoring first two columns
-    vy_series = data['VelY'].iloc[2:].values 
-    vz_series = data['VelZ'].iloc[2:].values
+    vx_series = data['VelX'].iloc[1:].values # ignoring first two columns
+    vy_series = data['VelY'].iloc[1:].values 
+    vz_series = data['VelZ'].iloc[1:].values
 
     vx_despiked, vx_spike_indices = despike_adv(vx_series, hx, hy) # call the despike_adv function
     vy_despiked, vy_spike_indices = despike_adv(vy_series, hx, hy)
