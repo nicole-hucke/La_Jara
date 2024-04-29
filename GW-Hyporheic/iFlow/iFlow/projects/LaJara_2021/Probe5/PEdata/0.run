@@ -1,0 +1,15 @@
+Analytical;AnalysisType
+FFT;AnalysisType
+Yes;MobileWin
+144;MobileWinLenght
+Hanning;FFTwin
+Yes;Detrending
+1626091200.0;Start
+1629115200.0;End
+23.999999999999996;Period
+0.063;BREKE
+T1;TopSensor
+1.0;Gamma
+0.063;BREFLUX
+1626285600.0;From
+1626458400.0;To

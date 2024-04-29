@@ -1,0 +1,7 @@
+FFT;AnalysisType
+Yes;MobileWin
+144;MobileWinLenght
+Hanning;FFTwin
+Yes;Detrending
+1626091200.0;Start
+1629115200.0;End
