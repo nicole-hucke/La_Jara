@@ -1,0 +1,7 @@
+data_name,median,z_stat,p_value,significant
+summer_concentrations,0.034,119.0,0.8237285614013672,No
+spring_concentrations,0.033,29.0,0.7646484375,No
+up_summer,0.034,20.0,0.2783203125,No
+down_summer,0.038,29.0,0.7646484375,No
+up_spring,0.038,5.0,0.625,No
+down_spring,0.032,7.0,0.5625,No
