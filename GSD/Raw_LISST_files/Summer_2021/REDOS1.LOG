@@ -1,0 +1,756 @@
+LISST-Portable|XR Data File  Created on: Saturday, February 12, 2022  11:31:57   Day: 043 
+  LISST-Portable|XR Serial number = 606
+  Firmware Version 3.013 Aug 10 2021 11:19:30
+
+Size Distribution Data in file: REDOS1.asc 
+Raw Scattering Data in binary file: REDOS1.dat 
+
+Sampling Parameters for Sample #1 
+  Sample saved on Saturday, February 12, 2022  11:31:57   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:13:10   Day: 043
+  Battery Level: 47%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 2 
+  Sample saved on Saturday, February 12, 2022  11:33:05   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:13:10   Day: 043
+  Battery Level: 47%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 3 
+  Sample saved on Saturday, February 12, 2022  11:33:58   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:13:10   Day: 043
+  Battery Level: 47%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 4 
+  Sample saved on Saturday, February 12, 2022  11:34:55   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:13:10   Day: 043
+  Battery Level: 47%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 5 
+  Sample saved on Saturday, February 12, 2022  11:35:53   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:13:10   Day: 043
+  Battery Level: 47%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 6 
+  Sample saved on Saturday, February 12, 2022  11:51:05   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:39:48   Day: 043
+  Battery Level: 45%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 7 
+  Sample saved on Saturday, February 12, 2022  11:52:05   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:39:48   Day: 043
+  Battery Level: 45%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 8 
+  Sample saved on Saturday, February 12, 2022  11:52:56   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:39:48   Day: 043
+  Battery Level: 45%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 9 
+  Sample saved on Saturday, February 12, 2022  11:54:03   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:39:48   Day: 043
+  Battery Level: 45%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 10 
+  Sample saved on Saturday, February 12, 2022  11:56:09   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:39:48   Day: 043
+  Battery Level: 44%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 11 
+  Sample saved on Saturday, February 12, 2022  12:05:41   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:58:49   Day: 043
+  Battery Level: 43%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 12 
+  Sample saved on Saturday, February 12, 2022  12:06:47   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:58:49   Day: 043
+  Battery Level: 43%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 13 
+  Sample saved on Saturday, February 12, 2022  12:07:42   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:58:49   Day: 043
+  Battery Level: 43%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 14 
+  Sample saved on Saturday, February 12, 2022  12:08:41   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:58:49   Day: 043
+  Battery Level: 43%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 15 
+  Sample saved on Saturday, February 12, 2022  12:10:21   Day: 043
+  ZScat saved on Saturday, February 12, 2022  11:58:49   Day: 043
+  Battery Level: 42%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 16 
+  Sample saved on Saturday, February 12, 2022  12:19:41   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:13:36   Day: 043
+  Battery Level: 41%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 17 
+  Sample saved on Saturday, February 12, 2022  12:20:52   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:13:36   Day: 043
+  Battery Level: 41%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 18 
+  Sample saved on Saturday, February 12, 2022  12:21:50   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:13:36   Day: 043
+  Battery Level: 41%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 19 
+  Sample saved on Saturday, February 12, 2022  12:23:25   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:13:36   Day: 043
+  Battery Level: 41%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 20 
+  Sample saved on Saturday, February 12, 2022  12:24:26   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:13:36   Day: 043
+  Battery Level: 41%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 21 
+  Sample saved on Saturday, February 12, 2022  12:30:55   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:27:59   Day: 043
+  Battery Level: 40%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 22 
+  Sample saved on Saturday, February 12, 2022  12:32:02   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:27:59   Day: 043
+  Battery Level: 40%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 23 
+  Sample saved on Saturday, February 12, 2022  12:32:55   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:27:59   Day: 043
+  Battery Level: 40%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 24 
+  Sample saved on Saturday, February 12, 2022  12:33:54   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:27:59   Day: 043
+  Battery Level: 39%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 25 
+  Sample saved on Saturday, February 12, 2022  12:34:55   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:27:59   Day: 043
+  Battery Level: 39%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 26 
+  Sample saved on Saturday, February 12, 2022  12:54:27   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:50:34   Day: 043
+  Battery Level: 38%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 27 
+  Sample saved on Saturday, February 12, 2022  12:55:23   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:50:34   Day: 043
+  Battery Level: 38%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 28 
+  Sample saved on Saturday, February 12, 2022  12:56:20   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:50:34   Day: 043
+  Battery Level: 38%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 29 
+  Sample saved on Saturday, February 12, 2022  12:57:22   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:50:34   Day: 043
+  Battery Level: 37%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 30 
+  Sample saved on Saturday, February 12, 2022  12:58:18   Day: 043
+  ZScat saved on Saturday, February 12, 2022  12:50:34   Day: 043
+  Battery Level: 37%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 31 
+  Sample saved on Saturday, February 12, 2022  13:08:31   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:00:57   Day: 043
+  Battery Level: 37%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 32 
+  Sample saved on Saturday, February 12, 2022  13:09:26   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:00:57   Day: 043
+  Battery Level: 37%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 33 
+  Sample saved on Saturday, February 12, 2022  13:12:45   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:00:57   Day: 043
+  Battery Level: 36%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 34 
+  Sample saved on Saturday, February 12, 2022  13:14:03   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:00:57   Day: 043
+  Battery Level: 36%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 35 
+  Sample saved on Saturday, February 12, 2022  13:16:29   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:00:57   Day: 043
+  Battery Level: 36%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 36 
+  Sample saved on Saturday, February 12, 2022  13:27:34   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:22:27   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 37 
+  Sample saved on Saturday, February 12, 2022  13:28:47   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:22:27   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 38 
+  Sample saved on Saturday, February 12, 2022  13:29:52   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:22:27   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 39 
+  Sample saved on Saturday, February 12, 2022  13:31:06   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:22:27   Day: 043
+  Battery Level: 36%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 40 
+  Sample saved on Saturday, February 12, 2022  13:32:03   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:22:27   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 41 
+  Sample saved on Saturday, February 12, 2022  13:36:32   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:33:53   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 42 
+  Sample saved on Saturday, February 12, 2022  13:37:30   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:33:53   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 43 
+  Sample saved on Saturday, February 12, 2022  13:38:24   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:33:53   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 44 
+  Sample saved on Saturday, February 12, 2022  13:39:59   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:33:53   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 45 
+  Sample saved on Saturday, February 12, 2022  13:40:50   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:33:53   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 46 
+  Sample saved on Saturday, February 12, 2022  13:45:37   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:42:54   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 47 
+  Sample saved on Saturday, February 12, 2022  13:46:34   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:42:54   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 48 
+  Sample saved on Saturday, February 12, 2022  13:47:48   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:42:54   Day: 043
+  Battery Level: 35%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 49 
+  Sample saved on Saturday, February 12, 2022  13:48:38   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:42:54   Day: 043
+  Battery Level: 34%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
+
+Sampling Parameters for Sample 50 
+  Sample saved on Saturday, February 12, 2022  13:51:30   Day: 043
+  ZScat saved on Saturday, February 12, 2022  13:42:54   Day: 043
+  Battery Level: 34%
+  SOP Name:  Fraunhofer Auto
+  Fraunhofer Scattering Model
+  Optical Model:  Spheres
+  Sample Averaging Duration:  20 seconds
+  Multi Sample Mode
+  Base File name:  REDOS1
+  Effective Density:  2.650
+  Automatic Control Mode
+  Mixer Speed/Duration:  30% for 10 secs
+  Ultrasonic Power/Duration:  100% for 10 secs
