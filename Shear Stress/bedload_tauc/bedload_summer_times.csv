@@ -1,14 +1,13 @@
 size,time,class
-2.0,2136.0,Silt
-20.0,2085.5,Silt
-45.0,1142.25,Silt
-63.0,906.25,Fine Sand
-100.0,524.25,Fine Sand
-200.0,50.25,Fine Sand
-280.0,10.25,Fine Sand
+2.0,0.0,Silt
+20.0,0.0,Silt
+45.0,0.0,Silt
+63.0,0.0,Fine Sand
+100.0,0.0,Fine Sand
+200.0,36.75,Fine Sand
+280.0,9.0,Fine Sand
 500.0,1.5,Fine Sand
 700.0,1.25,Fine Sand
 850.0,1.0,Coarse Sand
 1000.0,0.75,Coarse Sand
-1500.0,0.0,Coarse Sand
 2000.0,0.0,Coarse Sand
